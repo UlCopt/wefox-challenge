@@ -10,9 +10,12 @@
 - Bugs or improvements:
   - Bugs
     - the site allows making a booking without any guest, even paid the reservation
+    - ![](assets/without-guest-info.png)
     - the site allows making a booking with more guests than the maxim capacity of the room
+    - ![](assets/booking-over-max.jpeg)
     - it's possible to make a booking with guest information empty
-    - the nationality by default is United States, should be the option by default SELECT or even the user's nationality 
+    - the nationality by default is United States, should be the option by default SELECT or even the user's nationality
+    - ![](assets/nationality.png)
     - it's possible to avoid put the nationality and select the option SELECT
   - Improvements: 
     - should be a nice to have adding a pet option when you configure the adults and childs guest before to booking
@@ -25,7 +28,9 @@
 - Behavior expected: amounts, paid, taxes should be put correctly 
 - Bugs or improvements:
     - Bugs
-        - When you select more than one night, the value of the room is multiplied two times, increasing the cost of the room wrongly 
+        - When you select more than one night, the value of the room is multiplied two times, increasing the cost of the room wrongly
+        - ![](assets/one-night.png)
+        - ![](assets/three-night.png)
         - You need to click the icon or radio button to select the paid method, the ui suggest all the button is able to select the paid method (change color)
         - in the hotel search, appears a value for the room minor than shown on the detail
 
@@ -35,6 +40,7 @@
 - Bugs or improvements:
     - Bugs:
         - when you cancel a reservation the message is misspelled (successlly instead of successfully)
+        - ![](assets/misspelled.png)
     - Improvements:
         - after the make a cancellation, should be a nice to have, handle a different state to describe the book is in a cancellation process    
 
