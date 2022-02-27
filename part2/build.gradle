@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.2.3'
+    testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.2.3'
+    testImplementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '7.2.3'
+
+
+}
+
+test{
+    systemProperty "cucumber.options", System.getProperty("cucumber.options")
+    systemProperties = System.getProperties() as Map<String, ?>
+}

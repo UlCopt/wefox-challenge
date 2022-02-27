@@ -1,0 +1,12 @@
+#custom
+.idea
+part2/.idea
+part2/.gradle
+part2/gradle/
+part2/gradlew.bat
+part2/gradlew
+part2/build
+part2/target
+part2/.DS_Store
+part2/src/test/resources/webdriver/macos/.DS_Store
+part2/src/test/resources/webdriver/.DS_Store
